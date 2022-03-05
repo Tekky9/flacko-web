@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <title>the web</title>
+    <script>
+        function myfunction() {
+        document.getElementById('demo').innerHTML = "Wah gwaan";
+        }
+    </script>
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <button onclick="window.print()">Print this <b>page</b></button><br><br>
+    <h1>my first web page</h1>
+    <p>my first paragraph</p>
+    <p id="demo">hello</p>
+    <button type="button" onclick="myfunction()">click me</button>
+
+    <script>window.alert(9+7);
+    </script>
+    <script>
+    console.log(5+6);
+    </script>
+
+    <br>
+    
+    <p id="math"></p>
+
+    <script>
+        let x, y, z; //statement 1
+        x = 2; //statement 2
+        y = 4; //statement 3
+        z = x * y; //statement 4
+
+        document.getElementById('math').innerHTML = 'the number of people in this company are ' + z ;
+    </script>
+</body>
+</html>
